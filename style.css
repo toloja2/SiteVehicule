@@ -25,6 +25,7 @@ nav ul {
   justify-items: center;
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -44,7 +45,7 @@ nav ul li:hover {
 }
 
 header {
-  background: url(./Medias/2015-Red-Ford-Mustang-Side-Angle-Wallpaper-HD-24.jpg);
+  background: url(./Medias/Images/Nissan_Patrol.webp)no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -91,7 +92,8 @@ h2 {
   transition: 0.3s ease-in-out;
 }
 
-button:hover, .validation input:hover{
+button:hover,
+.validation input:hover {
   transform: translateY(2px) scale(1.05);
   background-color: black;
   color: white;
@@ -122,32 +124,135 @@ section {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+
 }
 
 .card1 {
-  background: url(./Medias/792309_441670925905004_1967708243_o.jpg);
+  background: url(./Medias/Images/Toyota_Corolla.webp);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .card2 {
-  background: url(./Medias/2015-Red-Ford-Mustang-Side-Angle-Wallpaper-HD-24.jpg);
+  background: url(./Medias/Images/Toyota_Vitz.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .card3 {
-  background: url(./Medias/935458_10151695343793083_835806879_n-1.jpg);
+  background: url(./Medias/Images/Nissan_Navara.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .card4 {
-  background: url(./Medias/942355_598240423540727_1861880854_n.jpg);
+  background: url(./Medias/Images/Toyota_Hilux.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .card5 {
-  background: url(./Medias/images.jpg);
+  background: url(./Medias/Images/Hyundai_Tucson.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .card6 {
-  background: url(./Medias/Nature-HD-Wallpapers-26.jpg);
+  background: url(./Medias/Images/Mazda_Demio.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.card7 {
+  background: url(./Medias/Images/Toyota_Land_Cruiser_Prado.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card8 {
+  background: url(./Medias/Images/Suzuki_Alto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card9 {
+  background: url(./Medias/Images/Mitsubishi_Pajero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card10 {
+  background: url(./Medias/Images/Peugeot_206.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card11 {
+  background: url(./Medias/Images/Hyundai_Grand_i10.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card12 {
+  background: url(./Medias/Images/Suzuki_Celerio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card13 {
+  background: url(./Medias/Images/Citroën_C3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card14 {
+  background: url(./Medias/Images/Renault_Clio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card15 {
+  background: url(./Medias/Images/Kia_Picanto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card16 {
+  background: url(./Medias/Images/Renault_Kwid.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card17 {
+  background: url(./Medias/Images/Peugeot_208.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card18 {
+  background: url(./Medias/Images/Nissan_Sunny.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 section p {
   color: rgb(15, 15, 15);
@@ -169,13 +274,13 @@ button {
   transition: 0.3s ease-in-out;
 }
 
-#apropos {
+#contact {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   justify-items: center;
   align-items: center;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 form {
@@ -188,7 +293,7 @@ form {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  width: 50%;
+  width:100%;
 }
 
 form input[type="email"] {
@@ -220,32 +325,113 @@ textarea {
   color: white;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
 
 
-.validation{
+.validation {
+  display: flex;
+  gap: 15%;
+  margin-top: 20px;
+}
+
+.validation input {
+
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.validation input[type='submit'] {
+  background-color: rgb(40, 40, 209);
+  color: white;
+
+}
+
+.validation input[type='reset'] {
+  background-color: orange;
+}
+
+
+@media(max-width:700px) {
+
+  .titre,
+  form {
+    width: 100%;
+    margin: 2%;
     display: flex;
-    flex-direction: row;
-    width: 60%;
-    margin-top: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+
+  section p {
+    font-size: 15px;
+  }
+
+  section span {
+    font-size: 16px;
+  }
 }
 
-.validation input{
-    margin-left: 20%;
-    padding: 5px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
+@media(max-width:600px) {
+  section{
+    width: 40%;
+  }
+  .card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+  }
+
+  section h2 {
+    font-size: 19px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+
+  section span {
+    font-size: 17px;
+  }
 }
 
-.validation input[type='submit']{
-    background-color: rgb(40, 40, 209);
-    color: white;
-    
-}
-.validation input[type='reset']{
-    background-color: orange;
+
+@media(max-width:500px) {
+  .card {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+  }
+
+  .titre,
+  form {
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  section {
+    margin: 0 5%;
+    width: 100%;
+  }
 }
